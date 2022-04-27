@@ -4,11 +4,11 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/" />
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
   <remote name="limingle" fetch="https://github.com/limingle/" />
-  <default remote="yocto" revision="master" />
+  <default remote="yocto" revision="honister" />
 
-  <project name="poky" remote="yocto" path="poky" revision="master" />
-  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="master" />
-  <project name="meta-starfive-bsp" remote="limingle" path="poky/meta-starfive-bsp" revision="main" />
+  <project name="poky" remote="yocto" path="poky" revision="honister" />
+  <project name="meta-openembedded" remote="openembedded" path="poky/meta-openembedded" revision="honister" />
+  <project name="meta-starfive-bsp" remote="limingle" path="poky/meta-starfive-bsp" revision="honister" />
 
 </manifest>
 
