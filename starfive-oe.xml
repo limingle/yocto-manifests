@@ -3,12 +3,12 @@
 <manifest>
   <remote name="openembedded" fetch="https://github.com/openembedded/" />
   <remote name="limingle" fetch="https://github.com/limingle/" />
-  <default remote="openembedded" revision="master" />
+  <default remote="openembedded" revision="kirkstone" />
 
-  <project name="meta-starfive-bsp" remote="limingle" path="openembedded/meta-starfive-bsp" revision="main" />
-  <project name="openembedded-core" remote="openembedded" path="openembedded" revision="master" />
-  <project name="bitbake" remote="openembedded" path="openembedded/bitbake" revision="master" />
-  <project name="meta-openembedded" remote="openembedded" path="openembedded/meta-openembedded" revision="master" />
+  <project name="meta-starfive-bsp" remote="limingle" path="openembedded/meta-starfive-bsp" revision="kirkstone" />
+  <project name="openembedded-core" remote="openembedded" path="openembedded" revision="kirkstone" />
+  <project name="bitbake" remote="openembedded" path="openembedded/bitbake" revision="2.0" />
+  <project name="meta-openembedded" remote="openembedded" path="openembedded/meta-openembedded" revision="kirkstone" />
 
 </manifest>
 
