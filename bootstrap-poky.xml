@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/" />
+  <remote name="limingle" fetch="https://github.com/limingle/" />
+  <default remote="yocto" revision="kirkstone" />
+
+  <project name="poky" remote="yocto" path="poky" revision="kirkstone" />
+  <project name="meta-bootstrap" remote="limingle" path="poky/meta-bootstrap" revision="main" />
+</manifest>
+

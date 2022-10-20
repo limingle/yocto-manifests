@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="openembedded" fetch="https://github.com/openembedded/" />
+  <remote name="limingle" fetch="https://github.com/limingle/" />
+  <default remote="openembedded" revision="kirkstone" />
+
+  <project name="openembedded-core" remote="openembedded" path="openembedded" revision="kirkstone" />
+  <project name="meta-bootstrap" remote="limingle" path="openembedded/meta-bootstrap" revision="main" />
+  <project name="bitbake" remote="openembedded" path="openembedded/bitbake" revision="2.0" />
+
+</manifest>
+
